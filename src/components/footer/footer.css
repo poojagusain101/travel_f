@@ -1,0 +1,53 @@
+.footer{
+    width: 100%;
+    /* padding: 4rem 0rem; */
+    background: rgb(37, 36, 36);
+    color: white;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.top i{
+    color:white;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.top i:hover{
+    color: rgb(143, 248, 126);
+}
+
+.bottom{
+    padding-top: 2rem;
+    padding: 0 40px;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bottom div{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom h4{
+    font-size: 1.5rem;
+    padding: 1rem 0 .8rem 0;
+
+}
+
+.bottom a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 0.4rem;
+    font-size: 1.1rem;
+}
+
